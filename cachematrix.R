@@ -5,7 +5,7 @@
 ## 3. Set the value of the inverse
 ## 4. Get the value of the inverse
 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
         m <- NULL # Makes sure m is equal to NULL if there is no cached inverse
         # Function to set the value of the matrix
         set <- function(y) {
